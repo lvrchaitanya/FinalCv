@@ -1,0 +1,263 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #040404;
+  color: white;
+  font-size: 2.5vw;
+  width: 100%;
+  padding: 10% 0;
+  text-align: left;
+}
+.App > h1 {
+  padding-left: 8%;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 5vw;
+  letter-spacing: 0.2vw;
+  display: inline-block;
+}
+.App > h2 {
+  padding-left: 8%;
+  padding-top: 3%;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 3vw;
+  letter-spacing: 0.2vw;
+  display: inline-block;
+  padding-bottom: 5%;
+}
+.App > img {
+  float: right;
+  width: 25%;
+  height: 25%;
+  border-radius: 100%;
+  margin-top: -8%;
+  width: 33%;
+  margin-right: 10%;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+
+.Middle {
+  color: #040404;
+  background-color: white;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 4vw 0 6vw 0;
+}
+
+.bio > h1 {
+  letter-spacing: 0vw;
+  padding: 6% 15%;
+  font-weight: 100;
+  font-size: 2vw;
+  letter-spacing: 0.1vw;
+}
+
+.Third {
+  padding: 10% 0;
+
+  background-color: #47ce65;
+  width: 100%;
+  color: white;
+}
+.head {
+  display: inline;
+}
+.body {
+  display: inline;
+}
+.head > h1 {
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 4vw;
+  margin: 0;
+  padding: 4% 0 4% 5%;
+  margin-left: 5vw;
+  letter-spacing: 0.2vw;
+  display: inline-block;
+}
+.body > h2 {
+  width: 40%;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5vw;
+  margin: 0;
+  padding: 0 0 4% 5%;
+  margin-left: 5vw;
+  color: white;
+
+  letter-spacing: 0.15vw;
+}
+
+.col > p {
+  font-size: 5vw;
+  margin-top: 0px;
+  font-weight: 100;
+  margin: 0 0 5vw 0;
+}
+div > img {
+  float: right;
+  width: 25%;
+  height: 25%;
+  border-radius: 100vw;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+/* navbar */
+
+#basic-navbar-nav {
+  padding-left: 66%;
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 8%;
+  /* border-style: solid;
+  border-width: 1px;
+  border-radius: 0.4vw; */
+  font-size: 2vw;
+  padding: 0 1vw;
+}
+
+/* fotter */
+.last {
+  letter-spacing: 0.2vw;
+  padding: 5% 0%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #040404;
+  color: white;
+}
+
+.fab {
+  padding: 8%;
+}
+
+#logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  font-weight: 900;
+  padding: 0;
+  letter-spacing: 0.5vw;
+  margin: 0 0 0 2vw;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.column {
+  float: left;
+  width: 50%;
+  width: 550px;
+  padding-right: 30px;
+  margin-right: 120px;
+  margin-left: 100px;
+}
+.column2 {
+  width: 50%;
+  width: 550px;
+
+  margin-right: 120px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#skills {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#skillli {
+  position: relative;
+  list-style: none;
+  margin: 50px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+
+#skillli:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+#skillli:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: #61dafb;
+  border-radius: 1000px;
+  animation-duration: 0.7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+#skillli.html:after {
+  animation-name: html;
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+#skillli.css:after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 90%;
+  }
+}
+
+#skillli.js:after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+    width: 50%;
+  }
+}
+
+#skillli.ng:after {
+  animation-name: ng;
+}
+
+@keyframes ng {
+  to {
+    width: 60%;
+  }
+}
+.row > ul {
+  color: white;
+}
