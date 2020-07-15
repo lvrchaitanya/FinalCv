@@ -1,7 +1,7 @@
 {
-  "name": "final-cv",
+  "name": "lvcr-cv",
   "version": "1.0.0",
-  "description": "final no erroe",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
