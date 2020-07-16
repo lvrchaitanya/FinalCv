@@ -11,15 +11,17 @@ export default function Nav(props) {
       variant="dark"
       style={{ backgroundColor: "#040404" }}
     >
-      <RB.Navbar.Brand href="#home" id="logo">
+      <RB.Navbar.Brand href="/" id="logo">
         CR
       </RB.Navbar.Brand>
       <RB.Navbar.Toggle aria-controls="basic-navbar-nav" />
       <RB.Navbar.Collapse id="basic-navbar-nav">
         <RB.Nav className="mr-auto">
-          {/* <RB.Nav.Link className="navbut" style={{ color: "white" }}>
-            Home
-          </RB.Nav.Link> */}
+          <RB.Nav.Link href="/about" style={{ color: "white" }}>
+            <RB.Button variant="outline-light" size="lg">
+              About
+            </RB.Button>
+          </RB.Nav.Link>
           <RB.Nav.Link
             href="https://github.com/lvrchaitanya?tab=repositories"
             className="navbut"

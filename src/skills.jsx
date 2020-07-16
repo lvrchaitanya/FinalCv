@@ -3,39 +3,43 @@ import "./styles.css";
 
 export default function Skill(props) {
   return (
-    <section id="skills" class="Skills" style={{ backgroundColor: "#161616" }}>
-      <div class="skilltitle">
+    <section
+      id="skills"
+      className="Skills"
+      style={{ backgroundColor: "#161616" }}
+    >
+      <div classNameName="skilltitle">
         <h1 align="center">SKILLS</h1>
       </div>
-      <div class="row">
-        <div class="column">
+      <div className="row">
+        <div className="column">
           <ul>
-            <li id="skillli" class="html">
+            <li id="skillli" className="html">
               C/C++
             </li>
-            <li id="skillli" class="css">
+            <li id="skillli" className="css">
               PYTHON
             </li>
-            <li id="skillli" class="js">
+            <li id="skillli" className="js">
               Java
             </li>
-            <li id="skillli" class="ng">
-              Bootstrap
+            <li id="skillli" className="ng">
+              Node,Express
             </li>
           </ul>
         </div>
-        <div class="column2">
+        <div className="column2">
           <ul>
-            <li id="skillli" class="html">
-              Javascript
+            <li id="skillli" className="html">
+              React
             </li>
-            <li id="skillli" class="css">
+            <li id="skillli" className="css">
               jQuery
             </li>
-            <li id="skillli" class="ng">
+            <li id="skillli" className="ng">
               Angular
             </li>
-            <li id="skillli" class="js">
+            <li id="skillli" className="js">
               JavaScript
             </li>
           </ul>
