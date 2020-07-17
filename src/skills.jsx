@@ -8,7 +8,7 @@ export default function Skill(props) {
       className="Skills"
       style={{ backgroundColor: "#161616" }}
     >
-      <div classNameName="skilltitle">
+      <div className="skilltitle">
         <h1 align="center">SKILLS</h1>
       </div>
       <div className="row">
