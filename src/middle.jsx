@@ -28,16 +28,13 @@ export default function Middle() {
           with the help of sustainable technologies and products and create a
           better technical ecosystem Chaitanya ,
         </h1>
-        {!isAbout && (
-          <RB.Button
-            onClick={showAbout}
-            variant="outline-primary"
-            style={{ border: "0px", marginBottom: "5vw" }}
-          >
-            <i class="fas fa-angle-double-down fa-3x animated bounce" />
-          </RB.Button>
-        )}
-        {isAbout && <About />}
+
+        <RB.Button
+          variant="outline-primary"
+          style={{ border: "0px", marginBottom: "5vw" }}
+        >
+          <i class="fas fa-angle-double-down fa-3x animated bounce" />
+        </RB.Button>
       </div>
     </div>
   );
