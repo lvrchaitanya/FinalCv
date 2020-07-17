@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
+import * as RB from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./about";
+import { bounce } from "rc-animate";
 
 var col = (
   <div className="col">
     <p>&#128075;</p>
   </div>
 );
+
 export default function Middle() {
+  const [isAbout, setCount] = useState(false);
+
+  function showAbout() {
+    setCount(true);
+  }
+
   return (
     <div className="Middle">
       <div className="bio">
@@ -17,6 +28,16 @@ export default function Middle() {
           with the help of sustainable technologies and products and create a
           better technical ecosystem Chaitanya ,
         </h1>
+        {!isAbout && (
+          <RB.Button
+            onClick={showAbout}
+            variant="outline-primary"
+            style={{ border: "0px", marginBottom: "5vw" }}
+          >
+            <i class="fas fa-angle-double-down fa-3x animated bounce" />
+          </RB.Button>
+        )}
+        {isAbout && <About />}
       </div>
     </div>
   );

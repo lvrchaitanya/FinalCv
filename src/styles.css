@@ -49,7 +49,7 @@ body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin: 4vw 0 6vw 0;
+  margin: 4vw 0 0vw 0;
 }
 
 .bio > h1 {
@@ -62,7 +62,7 @@ body {
 
 .Third {
   padding: 10% 0;
-
+  text-align: left;
   background-color: #47ce65;
   width: 100%;
   color: white;
@@ -260,4 +260,65 @@ div > img {
 }
 .row > ul {
   color: white;
+}
+
+.animated {
+  -webkit-animation-duration: 0s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+#animated-example {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+hr {
+  position: relative;
+  top: 92px;
+  left: -300px;
+  width: 200px;
 }
