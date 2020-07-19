@@ -9,7 +9,7 @@ export default function Nav(props) {
     <RB.Navbar
       expand="lg"
       variant="dark"
-      style={{ backgroundColor: "#040404" }}
+      style={{ backgroundColor: "#21bf73" }}
     >
       <RB.Navbar.Brand href="/" id="logo">
         CR

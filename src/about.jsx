@@ -7,7 +7,8 @@ export default function Middle() {
   return (
     <div>
       <Third
-        colour={"#0092D9"}
+        colour={"#FB4463"}
+        
         head={"APP DEVLOPMENT"}
         body={
           "I'm a App developer and i have experience in developing app for both IOS an Android using FLUTTER."
@@ -17,7 +18,7 @@ export default function Middle() {
         }
       />
       <Third
-        colour={"#47CE65"}
+      colour={"#6776CD"}
         head={"WEB DEVLOPMENT"}
         body={
           "I'm also a Web developer and have experience in HTMl CSS JavaScript and other frameworks like BootStrap and jQuery as well."
@@ -25,7 +26,8 @@ export default function Middle() {
         pic={"https://i.ibb.co/Hr1qYvz/programming.jpg"}
       />
       <Third
-        colour={"#F58330"}
+        
+        colour={"#313131"}
         head={"COMPETATIVE PROGRAMING"}
         body={
           " I do a lot of competative codeing as well and I'm good at solving the questions with time limit ."

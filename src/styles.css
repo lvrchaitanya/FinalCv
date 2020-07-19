@@ -1,7 +1,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: #040404;
+  background-color:#21bf73;
   color: white;
   font-size: 2.5vw;
   width: 100%;
@@ -9,7 +9,7 @@
   text-align: left;
 }
 .App > h1 {
-  padding-left: 8%;
+  padding-left: 12%;
   width: 50%;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
@@ -18,7 +18,7 @@
   display: inline-block;
 }
 .App > h2 {
-  padding-left: 8%;
+  padding-left: 12%;
   padding-top: 3%;
   width: 50%;
   font-family: "Montserrat", sans-serif;
@@ -30,12 +30,11 @@
 }
 .App > img {
   float: right;
-  width: 25%;
   height: 25%;
   border-radius: 100%;
-  margin-top: -8%;
-  width: 33%;
-  margin-right: 10%;
+  margin-top: -10%;
+  width: 38%;
+  margin-right: 8%;
 }
 body {
   padding: 0%;
@@ -62,7 +61,6 @@ body {
 
 .Third {
   padding: 10% 0;
-
   background-color: #47ce65;
   width: 100%;
   color: white;
@@ -115,7 +113,7 @@ div > img {
 /* navbar */
 
 #basic-navbar-nav {
-  padding-left: 63vw;
+  padding-left: 62vw;
   color: white;
 }
 
@@ -135,7 +133,7 @@ div > img {
   padding: 5% 0%;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  background-color: #040404;
+  background-color: #21bf73;
   color: white;
 }
 
@@ -260,4 +258,65 @@ div > img {
 }
 .row > ul {
   color: white;
+}
+
+.animated {
+  -webkit-animation-duration: 0s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6vw);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+#animated-example {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+hr {
+  position: relative;
+  top: 92px;
+  left: -300px;
+  width: 200px;
 }
