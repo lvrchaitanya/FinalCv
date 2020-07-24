@@ -32,7 +32,7 @@ export default function Nav(props) {
             </RB.Button>
           </RB.Nav.Link>
           <RB.Nav.Link
-            href="#link"
+            href="https://drive.google.com/file/d/1KYwjcWo2Yd7MCHqv3mlaaUzid6WwGR0w/view?usp=sharing"
             className="navbut"
             style={{ color: "white" }}
           >
